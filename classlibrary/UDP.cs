@@ -48,6 +48,7 @@ namespace ProptotypeControler //namespaceは本体に合わせて要修正
 
         public bool init(int port_snd, int port_to, int port_rcv) //UDP設定（送受信用ポートを開いて受信用スレッドを生成）
         {
+            //this.end();
             try
             {
                 udpForSend = new UdpClient(port_snd); //送信用ポート
